@@ -1,0 +1,9 @@
+<suite name="Suite" parallel="false">
+    <parameter name="userName"  value="admin"/>
+    <parameter name="password"  value="123456"/>
+    <test name="mulParameters">
+        <classes>
+            <class name="com.ygzy.stu.TestngDemo"/>
+        </classes>
+    </test>
+</suite>
